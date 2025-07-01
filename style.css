@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  width: 250px;
+  padding: 30px;
+  border: 1px solid rgb(41, 40, 40);
+  box-shadow: 5px 3px 12px 0 black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+  border-radius: 90px;
+  width: fit-content;
+  align-items: center;
+}
+div.txt {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+div.developer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+
+.t,
+p.u,
+p.v,
+p.w,
+p.x {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10px;
+  color: white;
+  width: 200px;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 4px;
+  background-color: hsl(0, 0%, 20%);
+}
+
+div.n {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
